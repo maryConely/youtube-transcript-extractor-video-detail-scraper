@@ -1,0 +1,50 @@
+[
+  {
+    "videoId": "qiVqicC8sIA",
+    "url": "https://www.youtube.com/watch?v=qiVqicC8sIA",
+    "title": "How To Add YouTube Info Cards",
+    "description": "In this video, we show you how to add info cards to your YouTube videos...",
+    "author": "vidIQ",
+    "channelId": "UCZAfK9GxZ2eQh6n0pQh9nWw",
+    "keywords": [
+      "youtube cards",
+      "youtube info cards",
+      "youtube tutorial"
+    ],
+    "viewCount": 274032,
+    "isPrivate": false,
+    "isLiveContent": false,
+    "thumbnails": [
+      {
+        "url": "https://i.ytimg.com/vi/qiVqicC8sIA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "durationSeconds": 420,
+    "publishDate": "2020-08-08",
+    "uploadDate": "2020-08-08",
+    "category": "Howto & Style",
+    "tags": [
+      "youtube",
+      "cards",
+      "vidiq"
+    ],
+    "isFamilySafe": true,
+    "transcript": [
+      {
+        "text": "So if you want immediate access to dozens of tools...",
+        "startMs": 160,
+        "endMs": 3760,
+        "startTimeText": "0:00"
+      },
+      {
+        "text": "In this video we're going to show you how to add info cards...",
+        "startMs": 4000,
+        "endMs": 8000,
+        "startTimeText": "0:04"
+      }
+    ],
+    "transcript_only_text": "So if you want immediate access to dozens of tools... In this video we're going to show you how to add info cards..."
+  }
+]
