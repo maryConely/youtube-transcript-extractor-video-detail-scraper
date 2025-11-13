@@ -1,0 +1,29 @@
+{
+  "name": "pgsqlyoutube-transcript-extractor",
+  "version": "1.0.0",
+  "description": "YouTube Transcript Extractor & Video Detail Scraper",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "scraper",
+    "apify",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apify": "^3.1.11",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
+
+pgsqlyoutube-transcript-extractor/.gitignore
+textnode_modules/
