@@ -1,0 +1,62 @@
+{
+  "actorSpecification": 1,
+  "name": "pgsqlyoutube-transcript-extractor",
+  "version": "1.0",
+  "description": "YouTube Transcript Extractor & Video Detail Scraper",
+  "supportedRuntimes": [
+    "node"
+  ],
+  "input": {
+    "schema": {
+      "title": "Input",
+      "type": "object",
+      "properties": {
+        "startUrls": {
+          "title": "Start URLs",
+          "type": "array",
+          "description": "List of YouTube URLs to scrape.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "url"
+            ]
+          }
+        },
+        "includeTranscript": {
+          "title": "Include transcript",
+          "type": "boolean",
+          "default": true
+        },
+        "language": {
+          "title": "Transcript language",
+          "type": "string",
+          "default": "en"
+        },
+        "maxConcurrency": {
+          "title": "Max concurrency",
+          "type": "integer",
+          "default": 10
+        },
+        "minConcurrency": {
+          "title": "Min concurrency",
+          "type": "integer",
+          "default": 1
+        },
+        "maxRequestRetries": {
+          "title": "Max request retries",
+          "type": "integer",
+          "default": 3
+        }
+      },
+      "required": [
+        "startUrls"
+      ]
+    }
+  }
+}
