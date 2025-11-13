@@ -1,0 +1,12 @@
+{
+  "startUrls": [
+    {
+      "url": "https://www.youtube.com/watch?v=qiVqicC8sIA"
+    }
+  ],
+  "includeTranscript": true,
+  "language": "en",
+  "maxConcurrency": 5,
+  "minConcurrency": 1,
+  "maxRequestRetries": 3
+}
